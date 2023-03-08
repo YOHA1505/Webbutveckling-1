@@ -1,0 +1,43 @@
+body
+{
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 5fr;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 242, 227);
+}
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-column: span 3;
+    background-color: rgba(252, 231, 206, 0.886);
+    border-radius: 5px;
+    color: #5b3d3d;
+    text-align: center;
+}
+.Tigri
+{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: flex-start;
+    margin-left: 10px;
+    color: #5b3d3d;
+    text-decoration: none;
+}
+.Amhar
+{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    text-align: end;
+    margin-right: 10px;
+    color: #5b3d3d;
+    text-decoration: none;
+}
+.Info
+{
+    color: #5b3d3d;
+    grid-column: 2/3;
+    text-align: center;
+}
